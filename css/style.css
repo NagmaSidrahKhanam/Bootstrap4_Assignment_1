@@ -1,0 +1,85 @@
+
+body {
+  font-family: 'Sofia';font-size: 22px;
+  /* background-color:rgb(27, 18, 5); */
+}
+.bg-light {
+  background-color: #f8f9fa!important;
+}
+#home{
+  text-decoration-color: gray;
+}
+#jumbochange{
+  /* margin-top: 75px; */
+  margin-top: -66px;
+}
+.nav-item a {
+  color: #afb4b9;
+  text-decoration: none;
+  background-color: transparent;
+}
+.carousel-caption h1{
+  font-size: 60px;
+}
+.navbar{
+  height: 15%;
+}
+.page-header img{
+  height: 15%;
+}
+.navbar input{
+  align-self: left;
+
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+/* 
+#navchange{
+margin-left: 276px;
+}
+#searchchange{
+  margin-left: 200px;
+} */
+#carouselchange{
+  margin-top: -32px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  /* Set height of carousel images for small devices */
+  .carousel-inner img {
+      height: 400px;
+  }
+  /* align features content */
+  .features img,p,h3{
+      margin-left: 0!important;
+  }
+} 
+
+
+@media only screen and (min-width: 768px) {
+  /* Set height of carousel images for medium devices */
+  .carousel-inner img {
+      height: 400px;
+  }
+  /* align features content */
+  .features img,p,h3{
+      margin-left: 0!important;
+  }
+} 
+
+@media only screen and (min-width: 1200px) {
+  /* Set height of carousel images for large devices */
+  .carousel-inner img {
+      height: 600px;
+  }
+  /* align features content */
+  .features img,p,h3{
+      margin-left: 15px!important;
+  }
+}
