@@ -1,2 +1,2 @@
 Bootstrap4 Assignment 1
-https://github.com/NagmaSidrahKhanam/Bootstrap4_Assignment_1-
+https://nagmasidrahkhanam.github.io/Bootstrap4_Assignment_1/
